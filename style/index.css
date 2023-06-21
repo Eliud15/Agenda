@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: lime;
+    overflow-x: hidden;
+}
+h1{
+    text-align: center;
+}
+.mes{
+    text-align: center;
+}
+main{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container-dias{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 90%;
+    height: 50px;
+    border-radius: 2rem;
+    color: black;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+#restablecer{
+    position: fixed;
+    top: 5px;
+    left: 0;
+    width: auto;
+   padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid red;
+   
+}
