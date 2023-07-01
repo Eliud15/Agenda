@@ -2,7 +2,7 @@ const DIAS = document.querySelectorAll('.container-dias');
 for (const container of DIAS) {
     container.addEventListener("click",(event)=>{
        if (event.target.nodeName === "H3")   return
-        localStorage.setItem(event.target.firstElementChild.textContent,event.target.firstElementChild.textContent);
+        localStorage.setItem(event.target.id,event.target.firstElementChild.textContent);
         location.reload();
     /*console.log(localStorage.length);*/
         /*console.log(event.target.firstChild.textContent);*/
@@ -25,7 +25,7 @@ addEventListener("DOMContentLoaded",()=>{
         newArrayElement.unshift(container)
     } 
     newArrayElement.forEach(elements => {
-        if (elements.firstElementChild.textContent === element) {
+        if (elements.id === element) {
             elements.style.background="lime"
         }
         else{
