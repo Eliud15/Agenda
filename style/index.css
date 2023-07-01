@@ -28,7 +28,7 @@ td{
     display: flex;
     justify-content: center;
     background-color: aliceblue;
-    width: 50px;
+    width: auto;
     height: 50px;
     color: black;
     cursor: pointer;
