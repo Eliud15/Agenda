@@ -6,27 +6,32 @@ body{
 h1{
     text-align: center;
 }
-.mes{
-    text-align: center;
-}
 main{
-    width: 100%;
     height: auto;
-    padding: 20px;
-    display: flex;
     align-items: center;
     flex-direction: column;
+    display: flex;
+}
+table{
+    width: auto;
+    margin-top: 50px;
+    border: 1px solid lime;
+}
+td{
+    text-align: center;
+    border: 1px solid lime;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 15px;
 }
 .container-dias{
     display: flex;
     justify-content: center;
     background-color: aliceblue;
-    width: 90%;
+    width: 50px;
     height: 50px;
-    border-radius: 2rem;
     color: black;
     cursor: pointer;
-    margin-top: 30px;
 
 }
 #restablecer{
